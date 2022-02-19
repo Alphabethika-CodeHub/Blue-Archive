@@ -1,0 +1,35 @@
+/*.ant-menu > ant-menu-root .ant-menu-inline .ant-menu-light .ant-pro-sider-menu {*/
+/*  padding-top: 2em !important;*/
+/*}*/
+.ant-pro-sider-logo {
+    padding: 16px 16px 4em 0.5em !important;
+}
+
+.ant-menu-sub.ant-menu-inline {
+    padding-left: 1em !important;
+}
+
+.ant-page-header-heading-title {
+    font-weight: 500 !important;
+}
+
+.ant-table-thead > tr > th {
+    font-weight: bold !important;
+}
+
+.ant-menu-sub.ant-menu-inline > .ant-menu-item, .ant-menu-sub.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    line-height: 30px !important;
+}
+
+.ant-menu-vertical > .ant-menu-item, .ant-menu-vertical-left > .ant-menu-item, .ant-menu-vertical-right > .ant-menu-item, .ant-menu-inline > .ant-menu-item, .ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    height: 40px !important;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #e6f7ff !important;
+    border-right: 2px solid #1890FF !important;
+}
+
+.ant-notification {
+    top: 4em !important;
+}
