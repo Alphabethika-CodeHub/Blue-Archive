@@ -1,5 +1,4 @@
 {
-  "homepage": "https://alphabethika-codehub.github.io/Blue-Archive/",
   "name": "artisan_antd_fe_boilerplate",
   "version": "0.1.0",
   "private": true,
@@ -155,6 +154,20 @@
   "babel": {
     "presets": [
       "react-app"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
     ]
   }
 }
