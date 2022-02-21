@@ -1,7 +1,7 @@
 {
   "name": "artisan_antd_fe_boilerplate",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@ant-design/pro-layout": "^6.25.7",
     "@babel/core": "^7.16.0",
