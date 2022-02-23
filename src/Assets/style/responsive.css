@@ -1,0 +1,93 @@
+/*Untuk Layar Device Berukuran Kecil*/
+@media screen and (max-width: 414px) {
+    .tabPane-responsive {
+        width: 380px;
+        margin-bottom: 40px;
+    }
+ }
+
+@media screen and (min-width: 380px) {
+    .container {
+        width: 380px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .header-form {
+        color: #69C0FF;
+        font-size: 20px;
+        font-weight: 700;
+    }
+ }
+  
+ /*Untuk Layar Device Berukuran Sedang*/
+ @media screen and (min-width: 500px) {
+    .container {
+        width: 480px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .header-form {
+        color: #69C0FF;
+        font-size: 18px;
+        font-weight: 700;
+    }
+ }
+
+ /*Untuk Layar Device Berukuran Sedang*/
+ @media screen and (min-width: 600px) {
+    .container {
+        width: 580px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .header-form {
+        color: #69C0FF;
+        font-size: 24px;
+        font-weight: 700;
+    }
+ }
+  
+ /*Untuk Layar Device Berukuran Besar*/
+ @media screen and (min-width: 800px) {
+    .container {
+        width: 680px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .header-form {
+        color: #69C0FF;
+        font-size: 30px;
+        font-weight: 700;
+    }
+ }
+
+ /*Untuk Layar Device Berukuran Kecil*/
+/* @media screen and (min-width: 450px) {
+    .light_blue, .green {
+        width: 50%
+    }
+ } */
+  
+ /*Untuk Layar Device Berukuran Sedang*/
+ /* @media screen and (min-width: 550px) {
+    .red {
+        width: 33%;
+    }
+  
+    .orange {
+        width: 67%;
+    }
+ } */
+  
+ /*Untuk Layar Device Berukuran Besar*/
+ /* @media screen and (min-width: 800px) {
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ } */
