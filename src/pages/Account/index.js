@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
-import { Modal, Space, Card, Typography, Button, List, Avatar, Descriptions, Badge, message } from 'antd';
+import React from 'react';
+import { Modal, Space, Card, Button, List, Avatar, Descriptions, Badge, message } from 'antd';
 import { ExclamationCircleOutlined } from "@ant-design/icons";
 import { observer } from "mobx-react-lite";
 import { useNavigate } from 'react-router-dom';
 import { useStore } from "../../utils/useStore";
 
-const { Title } = Typography;
 const { confirm } = Modal;
 
 export const Account = observer(() => {

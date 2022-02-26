@@ -1,26 +1,26 @@
-import { Routes, Route } from 'react-router-dom';
-import { PrivateRoute } from "../components/Route/PrivateRoute";
-import { Dashboard } from "../pages/Dashboard";
+import { Routes } from 'react-router-dom';
+// import { PrivateRoute } from "../components/Route/PrivateRoute";
+// import { Dashboard } from "../pages/Dashboard";
 
 // Category
-import { CategoryList } from "../pages/Category/CategoryList";
-import { CategoryForm } from "../pages/Category/Form/CategoryForm";
+// import { CategoryList } from "../pages/Category/CategoryList";
+// import { CategoryForm } from "../pages/Category/Form/CategoryForm";
 
 // Document
-import { DocumentForm } from "../pages/Document/Form/DocumentForm";
+// import { DocumentForm } from "../pages/Document/Form/DocumentForm";
 
 // Company
-import { CompanyList } from "../pages/Company/CompanyList";
-import { CompanyForm } from "../pages/Company/Form/CompanyForm";
+// import { CompanyList } from "../pages/Company/CompanyList";
+// import { CompanyForm } from "../pages/Company/Form/CompanyForm";
 
 // Folder
-import { FolderList } from "../pages/Folder/FolderList";
-import { FolderForm } from "../pages/Folder/Form/FolderForm";
-import { FolderCompanyA } from "../pages/Folder/FolderCompanyA";
-import { FolderCompanyB } from "../pages/Folder/FolderCompanyB";
+// import { FolderList } from "../pages/Folder/FolderList";
+// import { FolderForm } from "../pages/Folder/Form/FolderForm";
+// import { FolderCompanyA } from "../pages/Folder/FolderCompanyA";
+// import { FolderCompanyB } from "../pages/Folder/FolderCompanyB";
 
 // Account
-import { Account } from "../pages/Account";
+// import { Account } from "../pages/Account";
 
 export const AppRoute = () => {
 

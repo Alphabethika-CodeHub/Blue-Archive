@@ -12,30 +12,25 @@ import { Link } from 'react-router-dom';
 
 const { Title } = Typography;
 
-export const FolderList = observer((props) => {
+export const FolderList = observer(() => {
     const navigate = useNavigate();
     // const store = useStore();
     const [form] = Form.useForm();
-    const [morListSPPBE, setMorListSPPBE] = useState([]);
-    const [isLoading, setIsLoading] = useState(false);
-    const [filterQuery, setFilterQuery] = useState({
-        morID: localStorage.getItem('morId')
-    });
-    const [sort, setSort] = useState('');
-    const [initialData, setInitialData] = useState({});
+    const [isLoading] = useState(false);
+    const [initialData] = useState({});
     const [filterModal, setFilterModal] = useState(false);
-    const [index, setIndex] = useState(null);
+    const [index] = useState(null);
     const [page, setPage] = useState(1);
     const [state, setState] = useState({
         agent_name: '',
         status: '',
         no_antrian: '',
     });
-    const [filterValues, setFilterValues] = useState([
+    const [filterValues] = useState([
         { text: "3012", value: 3012 },
         { text: "2816", value: 2816 },
     ]);
-    const [filterValuesName, setFilterValuesName] = useState([
+    const [filterValuesName] = useState([
         { text: "SPPBE 3", value: "SPPBE 3" },
         { text: "SPPBE Depok", value: "SPPBE Depok" },
     ]);

@@ -3,25 +3,25 @@ import { Login } from '../pages/Login';
 // import {PublicRoute} from '../components/Route/PublicRoute';
 import { PrivateRoute } from '../components/Route/PrivateRoute';
 import { Dashboard } from "../pages/Dashboard";
-import { App } from '../pages/App/App';
+// import { App } from '../pages/App/App';
 import { DesktopLayout } from "../pages/App/DesktopLayout";
 
 // Category
-import { CategoryList } from "../pages/Category/CategoryList";
-import { CategoryForm } from "../pages/Category/Form/CategoryForm";
+// import { CategoryList } from "../pages/Category/CategoryList";
+// import { CategoryForm } from "../pages/Category/Form/CategoryForm";
 
 // Document
-import { DocumentForm } from "../pages/Document/Form/DocumentForm";
+// import { DocumentForm } from "../pages/Document/Form/DocumentForm";
 
 // Company
-import { CompanyList } from "../pages/Company/CompanyList";
-import { CompanyForm } from "../pages/Company/Form/CompanyForm";
+// import { CompanyList } from "../pages/Company/CompanyList";
+// import { CompanyForm } from "../pages/Company/Form/CompanyForm";
 
 // Folder
-import { FolderList } from "../pages/Folder/FolderList";
-import { FolderForm } from "../pages/Folder/Form/FolderForm";
-import { FolderCompanyA } from "../pages/Folder/FolderCompanyA";
-import { FolderCompanyB } from "../pages/Folder/FolderCompanyB";
+// import { FolderList } from "../pages/Folder/FolderList";
+// import { FolderForm } from "../pages/Folder/Form/FolderForm";
+// import { FolderCompanyA } from "../pages/Folder/FolderCompanyA";
+// import { FolderCompanyB } from "../pages/Folder/FolderCompanyB";
 
 // Account
 import { Account } from "../pages/Account";

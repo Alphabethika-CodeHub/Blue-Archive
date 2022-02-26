@@ -6,8 +6,6 @@ import {
     List,
     Avatar,
     message,
-    Row,
-    Col,
     Space,
     Layout,
     Drawer,
@@ -17,14 +15,8 @@ import {
     DownOutlined,
     MenuFoldOutlined,
     MenuUnfoldOutlined,
-    PieChartOutlined,
-    UserOutlined,
-    TeamOutlined,
-    DesktopOutlined,
-    FileOutlined
 } from '@ant-design/icons';
-import ProLayout, { PageContainer } from '@ant-design/pro-layout';
-import { AppRoute } from '../../routes/';
+import ProLayout from '@ant-design/pro-layout';
 import { useNavigate, useLocation, Outlet } from 'react-router-dom';
 import iconUser from '../../Assets/icon/image.svg';
 import './DesktopLayout.css';
@@ -32,9 +24,6 @@ import MenuList from './MenuList';
 // import { useStore } from "../../utils/useStore";
 import { observer } from "mobx-react-lite";
 import moment from "moment";
-
-const { Header, Content, Footer, Sider } = Layout;
-const { SubMenu } = Menu;
 
 export const DesktopLayout = observer(() => {
     const navigate = useNavigate();
