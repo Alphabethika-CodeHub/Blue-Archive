@@ -7,7 +7,6 @@ import {
     Avatar,
     message,
     Space,
-    Layout,
     Drawer,
     Button
 } from 'antd';

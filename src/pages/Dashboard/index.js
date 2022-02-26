@@ -1,15 +1,10 @@
-import React, { useState } from 'react';
-import { Row, Col, Card, Typography, Tabs, List, Avatar } from 'antd';
-import { useStore } from "../../utils/useStore";
+import React from 'react';
+import { Row, Col, Card, Typography, Button, List, Avatar } from 'antd';
 import { observer } from "mobx-react-lite";
 
 const { Title } = Typography;
-const { TabPane } = Tabs;
 
 export const Dashboard = observer(() => {
-
-    const store = useStore()
-    const [tabIsChange, setTabIsChange] = useState(store?.ui?.tabIndex ? store?.ui?.tabIndex : 1);
 
     const data = [
         {
@@ -34,28 +29,28 @@ export const Dashboard = observer(() => {
         <div style={{ padding: "24px" }}>
             <Row gutter={24}>
                 <Col span={6}>
-                    <Card title="Folder A" bordered={true} extra={<a href="#">More</a>}>
+                    <Card title="Folder A" bordered={true} extra={<Button type='primary'>More</Button>}>
                         <Row align='center'>
                             <Title level={2}>10 File</Title>
                         </Row>
                     </Card>
                 </Col>
                 <Col span={6}>
-                    <Card title="Folder B" bordered={true} extra={<a href="#">More</a>}>
+                    <Card title="Folder B" bordered={true} extra={<Button type='primary'>More</Button>}>
                         <Row align='center'>
                             <Title level={2}>27 File</Title>
                         </Row>
                     </Card>
                 </Col>
                 <Col span={6}>
-                    <Card title="Folder C" bordered={true} extra={<a href="#">More</a>}>
+                    <Card title="Folder C" bordered={true} extra={<Button type='primary'>More</Button>}>
                         <Row align='center'>
                             <Title level={2}>4 File</Title>
                         </Row>
                     </Card>
                 </Col>
                 <Col span={6}>
-                    <Card title="Folder D" bordered={true} extra={<a href="#">More</a>}>
+                    <Card title="Folder D" bordered={true} extra={<Button type='primary'>More</Button>}>
                         <Row align='center'>
                             <Title level={2}>87 File</Title>
                         </Row>
@@ -73,7 +68,7 @@ export const Dashboard = observer(() => {
                     <List.Item>
                         <List.Item.Meta
                             avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-                            title={<a href="https://ant.design">{item.title}</a>}
+                            title={<p>{item.title}</p>}
                             description={`${item.desc}`}
                         />
                     </List.Item>
